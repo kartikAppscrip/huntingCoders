@@ -13,9 +13,9 @@ export default function Home() {
 
       <main
         className={styles.main}>
-      <div className="blogs">
+        <div className="blogs">
 
-      </div>
+        </div>
         <h1 className={styles.title}>
           hunting coder APP
         </h1>
@@ -24,7 +24,7 @@ export default function Home() {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
-        
+
       </main>
 
       <footer className={styles.footer}>
