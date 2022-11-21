@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add --dev eslint
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add yarn
 
 PATH: 
   C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Bhavleen Singh\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Bhavleen Singh\AppData\Local\Microsoft\WindowsApps;C:\Users\Bhavleen Singh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bhavleen Singh\AppData\Roaming\npm;C:\Users\Bhavleen Singh\AppData\Roaming\nvm;C:\Program Files\nodejs
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\Users\Bhavleen Singh\Desktop\selfCloneProject\Nextjs\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Bhavleen Singh\Desktop\selfCloneProject\Nextjs\node_modules\@next\.swc-win32-x64-msvc.DELETE\next-swc.win32-x64-msvc.node'
 
 npm manifest: 
   {
@@ -31,6 +31,9 @@ npm manifest:
       "next": "13.0.3",
       "react": "18.2.0",
       "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+      "eslint": "^8.28.0"
     }
   }
 

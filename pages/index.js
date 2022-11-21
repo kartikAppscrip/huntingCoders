@@ -17,7 +17,7 @@ export default function Home() {
 
         </div>
         <h1 className={styles.title}>
-          hunting coder APP
+          Hunting coder
         </h1>
 
         <p className={styles.description}>
